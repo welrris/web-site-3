@@ -1,0 +1,205 @@
+.links li a {
+    color: white; 
+}
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0 ;
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+ 
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+   
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color: #042337;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color:  ;
+  cursor: pointer;
+  transition: .3s;
+   border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+
+
+
+}
+.landing-page .content .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #E6F5F2;
+  background-color: black;
+}
+
+ 
+  
+}
+
+/* End Landing Page */
+li [id=getstarted] {
+  
+  
+  
+}
+
+input[type=text], select, textarea {
+  width: 108%; /* Full width */
+  padding: 16px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 19px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: #fff;
+  color: #777;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+img {
+   
+  margin-left: 100px;
+  width: 70%;
+  
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 75px;
+}
+
+
+.footer{
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
